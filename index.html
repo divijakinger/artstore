@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Aesthetic Art Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- --------------- navigation -------------------- -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.jpg" width="80px" height="80px">
+                </div>
+                <nav>
+                    <ul id="menu_items">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/img-bag.png" width="30px" height="30px">
+                <img src="images/menu_icon.png" class="menu_icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <h1>Reimagining The <br>Gifting Experience</h1>
+                    <p>Tired of the usual gift boxes? <br> Here is a whole new gifting experience curated personally for you, handcrafted by me.
+                        <br>From Canvas Paintings to Digital Illustrations I have it all covered. <br>Gift your loved ones something special and make your special days memorable.
+                    </p>
+                    <a href="" class="btn">Explore Now &#10132;</a>
+                </div>
+                <div class="col2">
+                    <img src="images\image1.jpg ">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------- categories ------------------------- -->
+    <div class="categories">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col3">
+                    <img src="images/canvas_painting.jpg">
+                </div>
+                <div class="col3">
+                    <img src="images/digital_illustration.jpg">
+                </div>
+                <div class="col3">
+                    <img src="images/journals.jpg">
+                </div>
+            </div>
+        </div>   
+
+    </div>
+
+    <!-- --------------featured products------------------------ -->
+    <div class="smallcontainer">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="images/image2.jpg">
+                <h4>Digital Illustrations</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$7</p>
+            </div>
+            <div class="col4">
+                <img src="images/image3.jpg">
+                <h4>Canvas Quotes</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$10</p>
+            </div>
+            <div class="col4">
+                <img src="images/image4.jpg">
+                <h4>Minimalistic Art</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$6</p>
+            </div>
+            <div class="col4">
+                <img src="images/image5.jpg">
+                <h4>Canvas Paintings</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$15</p>
+            </div>                   
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="images/image2.jpg">
+                <h4>Digital Illustrations</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$7</p>
+            </div>
+            <div class="col4">
+                <img src="images/image8.jpg">
+                <h4>Canvas Quotes</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$10</p>
+            </div>
+            <div class="col4">
+                <img src="images/image7.jpg">
+                <h4>Minimalistic Art</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$6</p>
+            </div>
+            <div class="col4">
+                <img src="images/image3.jpg">
+                <h4>Canvas Paintings</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$15</p>
+            </div>
+            <div class="col4">
+                <img src="images/image7.jpg">
+                <h4>Digital Illustrations</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$7</p>
+            </div>
+            <div class="col4">
+                <img src="images/image4.jpg">
+                <h4>Canvas Quotes</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$10</p>
+            </div>
+            <div class="col4">
+                <img src="images/image2.jpg">
+                <h4>Minimalistic Art</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$6</p>
+            </div>
+            <div class="col4">
+                <img src="images/image8.jpg">
+                <h4>Canvas Paintings</h4>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$15</p>
+            </div>       
+        
+        </div>
+
+    </div>
+    <!-- ---------------------offer----------------------- -->
+    <div class="offer">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col2">
+                    <img src="images/exclusive.jpg" class="offer-img">
+                </div>
+                <div class="col2">
+                    <p>Exclusively Available</p>
+                    <h1>Quote Canvas Paintings</h1>
+                    <small>
+                        Get Your favourite quotes handcrafted on canvas boards made exclusively for you. 
+                        Canvas Boards are available in various sizes ranging from 4*6 to 12*12.
+                    </small>
+                    <a href="" class="btn"> Buy Now &#10132;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------testimonial---------------- -->
+    <div class="testimonial">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, voluptates mollitia ullam soluta voluptate commodi odit? Quod et numquam temporibus neque, quis, fugiat suscipit quo, itaque alias necessitatibus ullam?</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="images/people1.jpg">
+                    <h3>Michael Isparo</h3>
+                </div>
+                <div class="col3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, voluptates mollitia ullam soluta voluptate commodi odit? Quod et numquam temporibus neque, quis, fugiat suscipit quo, itaque alias necessitatibus ullam?</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="images/people2.jpg">
+                    <h3>Jennifer Lawrence</h3>
+                </div>
+                <div class="col3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque, voluptates mollitia ullam soluta voluptate commodi odit? Quod et numquam temporibus neque, quis, fugiat suscipit quo, itaque alias necessitatibus ullam?</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="images/people3.png">
+                    <h3>Alan Mathews</h3>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- ------------- brands -------------- -->
+    <div class="brands">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col5">
+                    <img src="images/logo1.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo2.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo3.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo4.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------footer------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download our app for Andriod and Ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="images/playstore.png">
+                        <img src="images/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <img src="images/logo-final.png">
+                    <p>We provide you with custom made cards and gift boxes for all your special occasions.</p>
+                </div>
+                <div class="footer-col3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js for toggle -->
+    <script>
+        var menu_items = document.getElementById("menu_items");
+        menu_items.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if (menu_items.style.maxHeight == "0px")
+            {
+                menu_items.style.maxHeight = "200px"
+            }
+            else
+            {
+                menu_items.style.maxHeight = "0px"
+            }
+
+        }
+    </script>
+</body>
+</html>
